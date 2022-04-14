@@ -1,4 +1,4 @@
-# Library-Registrer 📚
+# Library Register System 📚
 ## A library registrer system and query books. ⚛️
 
 
