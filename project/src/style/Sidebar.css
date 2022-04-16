@@ -1,0 +1,124 @@
+:root {
+    --bg-navbar: #000000;
+    --bg-navmenu: #000000cc;
+    --bg-dropdown-hover: #046daa2b;
+    --text-nav-link: #ffffff;
+
+}
+
+.navbar {
+    background-color: var(--bg-navbar);
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-menu {
+    background-color: var(--bg-navmenu);
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 8px;
+    list-style: none;
+    height: 55px;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: var(--text-nav-link);
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+    transition: 410ms;
+
+}
+
+.nav-text a:hover {
+    background-color: var(--bg-dropdown-hover);
+    transition: 0.2s;
+    border-left: 4px solid;
+    cursor: pointer;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: var(--bg-navbar);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+span {
+    margin-left: 16px;
+}
+
+.sidebar-link {
+    padding: 20px;
+    display: flex;
+    color: var(--text-nav-link);
+}
+
+.dropdown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 0px 0px 8px;
+    list-style: none;
+    height: 60px;
+    margin-left: 30px;
+    border-radius: 4px ;
+    background-color: var(--bg-navbar);
+    transition: 410ms;
+
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: var(--text-nav-link);
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.dropdown:hover {
+    background-color: var(--bg-dropdown-hover);
+    transition: ease-in-out 0.2s;
+    border-left: 4px solid var(--text-nav-link);
+    cursor: pointer;
+
+}

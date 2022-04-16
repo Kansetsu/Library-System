@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background: url("../vendor/img/books-1281581.jpg") repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 5rem;
+}
+
+/* .btn {
+
+} */
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 90rem;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 82rem;
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+}

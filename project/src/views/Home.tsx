@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css'
+import '../style/Home.css'
 
 export function Home() {
   return (
-    <div >
-        <h1></h1>
+    <div className='home'>
+        Home
     </div>
   )
 }
