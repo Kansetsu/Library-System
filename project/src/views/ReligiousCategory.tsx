@@ -1,8 +1,10 @@
-import React from 'react'
+import '../style/Categories.css'
 
 function ReligiousCategory() {
   return (
-    <div>ReligiousCategory</div>
+    <div className='div-category'>
+      <h1 className='categories-h1'>Religious Category</h1>
+    </div>
   )
 }
 

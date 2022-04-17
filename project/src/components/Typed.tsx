@@ -1,6 +1,8 @@
 import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
 import '../style/Typed.css'
+import * as BsIcons from "react-icons/bs";
+
 
 export const TypedText = () => {
     // Create reference to store the DOM element containing the animation
@@ -17,11 +19,11 @@ export const TypedText = () => {
                 'Serious, help me, please',
                 `It's not a subliminar message`,
                 'Can you, please, call the police ?',
-                `I like Enconra Brasil`,
-                `I don't know what say, so bye!`
+                `I love Enconra Brasil`
             ],
-            typeSpeed: 50,
-            backSpeed: 50,
+            typeSpeed: 80,
+            backSpeed: 40,
+            backDelay: 1500,
             loop: true
         };
 
@@ -39,8 +41,25 @@ export const TypedText = () => {
         <div className="">
             <h1>Vini Library</h1>
 
-            <div className="">
+            <div className='div-typed'>
                 <span style={{ whiteSpace: 'pre' }} ref={el} />
+            </div>
+            <div>
+                <a className='social-media' target='_blank' rel="noreferrer" href='https://github.com/Vinicius-AndradeM/Library-System'>
+                    <BsIcons.BsGithub />
+                </a>
+
+                <a className='social-media' target='_blank' rel="noreferrer" href='https://www.encora.com/'>
+                    <BsIcons.BsGlobe2 />
+                </a>
+
+                <a className='social-media' target='_blank' rel="noreferrer" href='https://www.linkedin.com/company/daitan-group/'>
+                    <BsIcons.BsLinkedin />
+                </a>
+
+                <a className='social-media' target='_blank' rel="noreferrer" href='mailto:vinicius802010@gmail.com'>
+                    <BsIcons.BsEnvelopeFill />
+                </a>
             </div>
         </div>
     );

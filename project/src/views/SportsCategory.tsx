@@ -1,8 +1,10 @@
-import React from 'react'
+import '../style/Categories.css'
 
 function SportsCategory() {
   return (
-    <div>SportsCategory</div>
+    <div className='div-category'>
+      <h1 className='categories-h1'>Sports Category</h1>
+    </div>
   )
 }
 

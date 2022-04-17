@@ -8,7 +8,7 @@
 
 .navbar {
     background-color: var(--bg-navbar);
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -49,7 +49,7 @@
 .nav-text a {
     text-decoration: none;
     color: var(--text-nav-link);
-    font-size: 18px;
+    font-size: 17px;
     width: 95%;
     height: 100%;
     display: flex;
@@ -62,9 +62,10 @@
 
 .nav-text a:hover {
     background-color: var(--bg-dropdown-hover);
-    transition: 0.2s;
+    transition: ease-in-out 0.2s;
     border-left: 4px solid;
     cursor: pointer;
+    color: #046DAA;
 }
 
 .nav-menu-items {
@@ -107,7 +108,7 @@ span {
 .dropdown a {
     text-decoration: none;
     color: var(--text-nav-link);
-    font-size: 18px;
+    font-size: 17px;
     width: 95%;
     height: 100%;
     display: flex;
@@ -120,5 +121,9 @@ span {
     transition: ease-in-out 0.2s;
     border-left: 4px solid var(--text-nav-link);
     cursor: pointer;
+}
+
+.dropdown a:hover {
+    color: #046DAA;
 
 }

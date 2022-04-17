@@ -1,8 +1,10 @@
-import React from 'react'
+import '../style/Categories.css'
 
 function ArticleCategory() {
   return (
-    <div>ArticleCategory</div>
+    <div className='div-category'>
+      <h1 className='categories-h1'>Article Category</h1>
+    </div>
   )
 }
 

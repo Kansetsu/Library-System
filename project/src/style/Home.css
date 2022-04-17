@@ -8,3 +8,14 @@
     color: white;
 }
 
+.typed {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start !important;
+    border-radius: 23px;
+    font-size: 2rem;
+    position: relative;
+    top: 3rem;
+    right: 19rem;
+    color: #ffffff;
+}

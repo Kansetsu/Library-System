@@ -2,5 +2,23 @@
 
 h1 {
     font-family: 'Alfa Slab One', cursive;
-    font-weight: normal;
+    font-weight: 100;
+}
+
+.social-media {
+    color: white;
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+    transition: ease-in-out 0.5s;
+
+}
+
+.social-media:hover {
+    color: #046DAA;
+    transition: ease-in-out 0.5s;
+}
+
+.div-typed {
+    margin-bottom: 10px;
+    margin-right: 5px;
 }

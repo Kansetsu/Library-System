@@ -1,0 +1,13 @@
+.div-category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.categories-h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: 19rem;
+}

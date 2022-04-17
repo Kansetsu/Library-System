@@ -1,8 +1,10 @@
-import React from 'react'
+import '../style/Categories.css'
 
 function LanguageCategory() {
   return (
-    <div>LanguageCategory</div>
+    <div className='div-category'>
+      <h1 className='categories-h1'>Language Category</h1>
+    </div>
   )
 }
 
