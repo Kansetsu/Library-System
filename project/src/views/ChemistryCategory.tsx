@@ -1,11 +1,11 @@
-import '../style/Categories.css'
+import "../style/Categories.css";
 
 function ChemistryCategory() {
-  return (
-    <div className='div-category'>
-      <h1 className='categories-h1'>Chemistry Category</h1>
-    </div>
-  )
+    return (
+        <div className="div-category">
+            <h1 className="categories-h1">Chemistry Category</h1>
+        </div>
+    );
 }
 
-export default ChemistryCategory
+export default ChemistryCategory;

@@ -1,0 +1,7 @@
+.update {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+}

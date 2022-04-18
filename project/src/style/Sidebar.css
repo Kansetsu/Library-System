@@ -3,7 +3,6 @@
     --bg-navmenu: #000000cc;
     --bg-dropdown-hover: #046daa2b;
     --text-nav-link: #ffffff;
-
 }
 
 .navbar {
@@ -12,6 +11,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .menu-bars {
@@ -57,7 +58,6 @@
     padding: 0 16px;
     border-radius: 4px;
     transition: 410ms;
-
 }
 
 .nav-text a:hover {
@@ -65,7 +65,7 @@
     transition: ease-in-out 0.2s;
     border-left: 4px solid;
     cursor: pointer;
-    color: #046DAA;
+    color: #046daa;
 }
 
 .nav-menu-items {
@@ -99,10 +99,9 @@ span {
     list-style: none;
     height: 60px;
     margin-left: 30px;
-    border-radius: 4px ;
+    border-radius: 4px;
     background-color: var(--bg-navbar);
     transition: 410ms;
-
 }
 
 .dropdown a {
@@ -124,6 +123,5 @@ span {
 }
 
 .dropdown a:hover {
-    color: #046DAA;
-
+    color: #046daa;
 }

@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    background-color: coral;
+    height: 100vh;
 }
 
 .categories-h1 {
     display: flex;
+    align-items: center;
     justify-content: center;
     color: white;
-    position: relative;
-    top: 19rem;
 }
