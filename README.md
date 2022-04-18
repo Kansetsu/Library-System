@@ -9,3 +9,4 @@
 - A home page
 - Side sandwich menu for collapsible navigation
 - Use [api made in TS previously](https://github.com/Vinicius-AndradeM/Library-API-v2) for the backend! 
+- Project made in React
