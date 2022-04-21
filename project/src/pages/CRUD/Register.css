@@ -1,0 +1,8 @@
+.register {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: url("../../vendor/img/libraryCRUD.jpg") repeat scroll center center/cover;
+
+}

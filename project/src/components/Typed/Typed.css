@@ -1,0 +1,23 @@
+#hero .div-typed {
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+#hero .typed {
+    display: flex;
+    align-content: center;
+    font-size: 3rem;
+    width: 49rem;
+}
+
+#hero .social-media {
+    color: var(--color-text);
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+    transition: ease-in-out 0.5s;
+}
+
+#hero .social-media:hover {
+    color: var(--hover);
+    transition: ease-in-out 0.5s;
+}

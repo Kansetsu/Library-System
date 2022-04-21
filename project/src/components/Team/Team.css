@@ -1,0 +1,20 @@
+#team .team-content {
+    background: url("../../vendor/img/renato-smash.png") center/cover;
+    height: 92vh;
+}
+
+#team .team-content h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-text);
+    padding-top: 10px;
+    font-size: 3rem;
+}
+
+#team .team-content p {
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}

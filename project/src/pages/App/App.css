@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+/*=========================================
+General 
+==========================================*/
+
+:root {
+    --bg-navbar: #000000;
+    --bg-navmenu: #000000cc;
+    --color-text: #fff;
+    --dropdown-hover: #046daa2b;
+    --hover-btn: #000000;
+    --hover: #046daa;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Alfa Slab One", cursive;
+    font-weight: 100;
+}
+
+.text {
+    font-weight: 300;
+    font-size: 5rem;
+}

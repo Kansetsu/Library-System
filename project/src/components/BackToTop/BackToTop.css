@@ -1,0 +1,25 @@
+#hero .back-to-top {
+    position: fixed;
+    /* visibility: hidden;
+    opacity: 0; */
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: var(--color-text);
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    transition: ease-in-out 1s;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 40%), 0 6px 20px 0 rgb(0 0 0 / 40%);
+}
+
+#hero .back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+#hero .back-to-top:hover {
+    background-color: var(--hover);
+    transition: ease-in-out 1s;
+}

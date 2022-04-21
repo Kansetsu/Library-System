@@ -1,0 +1,14 @@
+#category .div-category {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: coral;
+    height: 100vh;
+}
+
+#category .categories-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
