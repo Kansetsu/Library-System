@@ -1,0 +1,73 @@
+.card {
+    /* overflow: hidden; */
+    background-color: #000000f3;
+    box-shadow: 0 4px 8px 0 rgba(105, 5, 5, 0.535), 0 6px 20px 0 rgba(105, 5, 5, 0.535);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 200ms ease-in;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-body {
+    margin: 2rem;
+}
+
+.card-title {
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.card-description {
+    color: #ffffff;
+
+    padding: 0 1rem;
+}
+
+.card-btn-like {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    border: 2px solid #2b9505;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+.card-btn-like:hover {
+    background: #2b9505;
+}
+
+.card-btn-deslike {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem;
+    border: 2px solid #950505;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+.card-btn-deslike:hover {
+    background: #950505;
+}
+
+.card-img {
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+    position: unset;
+}
+
+.opinion-btn {
+    display: flex;
+    justify-content: center;
+}

@@ -6,9 +6,9 @@ function Team() {
             <div className="team-content">
                 <div className="team-cover">
                     <div className="divisor">
-                        <h1 data-aos="fade" data-aos-delay="50000" >Team</h1>
+                        <h1 data-aos="fade">Team</h1>
                         <p data-aos="fade">
-                            The team is me and my friend Renato. <br /> As you can see, he love me 😳
+                            The team is me and my mentor Renato.
                         </p>
                     </div>
                 </div>

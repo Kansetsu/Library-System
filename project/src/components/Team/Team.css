@@ -1,6 +1,6 @@
 #team .team-content {
     background: url("../../vendor/img/library.jpg") center/cover;
-    height: 100vh;
+    height: 92vh;
     overflow: hidden;
 }
 
@@ -10,6 +10,18 @@
     color: var(--color-text);
     padding-top: 10px;
     font-size: 3rem;
+}
+
+@media (max-width: 1920px) {
+    #team .team-content h1 {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 2560px) {
+    #team .team-content h1 {
+        padding-top: 65px !important;
+    }
 }
 
 #team .team-content p {
@@ -34,11 +46,28 @@
     bottom: 47px;
 }
 
-#team .divisor h1{
+@media (max-width: 2560px) {
+    #team .divisor {
+        bottom: 66px;
+    }
+}
+@media (max-width: 1920px) {
+    #team .divisor {
+        bottom: 49px;
+    }
+}
+
+#team .divisor h1 {
     padding-top: 50px;
     transform: skewY(3deg);
 }
 
-#team .divisor p{
+#team .divisor p {
     transform: skewY(3deg);
+}
+
+#team .about {
+}
+
+#team .about-img {
 }

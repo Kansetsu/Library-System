@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 /*=========================================
 General 
 ==========================================*/
@@ -8,9 +7,9 @@ General
     --bg-navbar: #000000;
     --bg-navmenu: #000000cc;
     --color-text: #fff;
-    --dropdown-hover: #046daa2b;
+    --dropdown-hover: #95050553;
     --hover-btn: #000000;
-    --hover: #046daa;
+    --hover: #950505;
 }
 
 * {

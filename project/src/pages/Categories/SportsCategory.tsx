@@ -1,11 +1,9 @@
-import "./Categories.css";
 import img from "../../vendor/img/card-book.png";
-import Card from "../../components/Card/Card";
+import Card from "../../components/Cards/Card";
 
 function SportsCategory() {
     return (
         <section id="category">
-            <div><h1>dsadad</h1></div>
             <div className="wrapper">
                 <Card
                     img={img}

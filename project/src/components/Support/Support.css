@@ -1,6 +1,6 @@
 #support .support-content {
     background: url("../../vendor/img/libraryCRUD.jpg") center/cover;
-    height: 100vh;
+    height: 92vh;
     overflow: hidden;
 }
 
@@ -20,26 +20,48 @@
     font-size: 1.5rem;
 }
 
+@media (max-width: 1920px) {
+    #support .support-content h1 {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 2560px) {
+    #support .support-content h1 {
+        padding-top: 65px !important;
+    }
+}
+
 #support .support-cover {
     background: #00000088;
     height: 100vh;
-
 }
 
-#support .divisor{
+#support .divisor {
     background-color: black;
     height: 30vh;
     color: white;
     transform: skewY(3deg);
     position: relative;
-    bottom: 50px;
+    bottom: 47px;
 }
 
-#support .divisor h1{
+@media (max-width: 2560px) {
+    #support .divisor {
+        bottom: 66px;
+    }
+}
+@media (max-width: 1920px) {
+    #support .divisor {
+        bottom: 49px;
+    }
+}
+
+#support .divisor h1 {
     padding-top: 50px;
     transform: skewY(-3deg);
 }
 
-#support .divisor p{
+#support .divisor p {
     transform: skewY(-3deg);
 }

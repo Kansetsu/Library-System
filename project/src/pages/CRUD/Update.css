@@ -1,9 +1,8 @@
 .update {
     height: 100vh;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    background: url("../../vendor/img/libraryCRUD.jpg");
+    background: url("../../vendor/img/libraryCRUD.jpg") center/cover;
+    overflow: hidden;
+
 }
 
 .update input {

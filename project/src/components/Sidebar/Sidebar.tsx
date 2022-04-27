@@ -17,14 +17,14 @@ export function Sidebar() {
 
     return (
         <header id="header">
-            <IconContext.Provider value={{ color: "#046DAA" }}>
+            <IconContext.Provider value={{ color: "#950505" }}>
                 <div className="navbar">
                     <Link to="#" className="menu-bars">
                         <FaIcons.FaBars onClick={showSidebar} />
                     </Link>
                     <img className="logo" src={logo} alt="logo" />
                     <Link to="/" className="logo-text">
-                        Vini Library
+                        Vini <span className="title">Library</span>
                     </Link>
                 </div>
                 <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
@@ -40,7 +40,7 @@ export function Sidebar() {
                                 <li key={index}>
                                     <li className={item.cName} >
                                         {["team", "support"].includes(item.path) ? (
-                                            <ScrollTo key={index} smooth={true} offset={0} activeClass="active" to={item.path}>
+                                            <ScrollTo key={index} smooth={true} offset={-77} activeClass="active" to={item.path}>
                                                 {item.icon}
                                                 <span>{item.title}</span>
                                                 {item.subNav && subnav ? item.iconOpened : item.subNav ? item.iconClosed : null}

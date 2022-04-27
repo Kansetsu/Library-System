@@ -1,4 +1,13 @@
-#category body {
-    background-color: blue;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 21rem));
+    gap: 2rem;
+    justify-content: center;
+    padding: 10rem;
+    background: url("../../vendor/img/library.jpg") center/cover;
 }
 
+.cover {
+    background: #00000088;
+    height: 100vh;
+}

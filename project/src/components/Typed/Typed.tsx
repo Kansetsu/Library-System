@@ -47,7 +47,9 @@ export const TypedText = () => {
 
     return (
         <div>
-            <h1 data-aos="fade-up">Vini Library</h1>
+            <h1 data-aos="fade-up" className="title">
+                Vini <span className="title-typed">Library</span>
+            </h1>
 
             <div data-aos="fade" className="div-typed">
                 <span style={{ whiteSpace: "pre" }} ref={el} />

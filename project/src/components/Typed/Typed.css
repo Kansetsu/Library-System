@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
 #hero .div-typed {
     margin-bottom: 10px;
     margin-right: 5px;
@@ -5,9 +7,9 @@
 
 #hero .typed {
     display: flex;
-    align-content: center;
+    align-content: space-between;
     font-size: 3rem;
-    width: 49rem;
+    width: 75rem;
 }
 
 #hero .social-media {
@@ -20,4 +22,16 @@
 #hero .social-media:hover {
     color: var(--hover);
     transition: ease-in-out 0.5s;
+}
+
+#hero .title-typed {
+    font-family: 'Monoton', cursive;
+    color: red;
+    transform: skewY(10deg);
+    
+}
+
+
+#hero .title {
+    font-family: 'Monoton', cursive;
 }

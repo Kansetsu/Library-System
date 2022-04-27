@@ -1,6 +1,5 @@
-import "./Categories.css";
 import img from "../../vendor/img/card-book.png";
-import Card from "../../components/Card/Card";
+import Card from "../../components/Cards/Card";
 function ArticleCategory() {
     return (
         <section id="category">

@@ -4,7 +4,9 @@ import "./Register.css";
 function Register() {
     return (
         <div className="register">
-            <Form></Form>
+            <div className="register-cover">
+                <Form />
+            </div>
         </div>
     );
 }

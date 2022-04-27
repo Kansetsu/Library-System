@@ -5,7 +5,7 @@ function Footer() {
         <section id="footer">
             <div className="footer-content">
                 <div>
-                    <h1>Footer</h1>
+                    <h1 data-aos= "fade">Footer</h1>
                     <p>To-do</p>
                 </div>
             </div>
