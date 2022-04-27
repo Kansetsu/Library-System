@@ -40,7 +40,7 @@ export function Sidebar() {
                                 <li key={index}>
                                     <li className={item.cName} >
                                         {["team", "support"].includes(item.path) ? (
-                                            <ScrollTo key={index} smooth={true} offset={-77} activeClass="active" to={item.path}>
+                                            <ScrollTo key={index} smooth={true} offset={0} activeClass="active" to={item.path}>
                                                 {item.icon}
                                                 <span>{item.title}</span>
                                                 {item.subNav && subnav ? item.iconOpened : item.subNav ? item.iconClosed : null}

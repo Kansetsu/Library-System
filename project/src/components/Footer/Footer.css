@@ -1,0 +1,27 @@
+#footer {
+    height: 20vh;
+    background-color: black;
+}
+
+#footer .footer-content {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#footer .footer-content h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-text);
+    padding-top: 10px;
+    font-size: 3rem;
+}
+
+#footer .footer-content p {
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}

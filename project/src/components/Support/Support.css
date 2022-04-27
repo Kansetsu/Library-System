@@ -1,6 +1,7 @@
 #support .support-content {
-    background: url("../../vendor/img/registerComplete.jpg") center/cover;
-    height: 92vh;
+    background: url("../../vendor/img/libraryCRUD.jpg") center/cover;
+    height: 100vh;
+    overflow: hidden;
 }
 
 #support .support-content h1 {
@@ -17,7 +18,28 @@
     justify-content: center;
     padding: 20px;
     font-size: 1.5rem;
-    align-items: center;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    margin-top: 120px;
+}
+
+#support .support-cover {
+    background: #00000088;
+    height: 100vh;
+
+}
+
+#support .divisor{
+    background-color: black;
+    height: 30vh;
+    color: white;
+    transform: skewY(3deg);
+    position: relative;
+    bottom: 50px;
+}
+
+#support .divisor h1{
+    padding-top: 50px;
+    transform: skewY(-3deg);
+}
+
+#support .divisor p{
+    transform: skewY(-3deg);
 }

@@ -1,7 +1,24 @@
-.delete { 
+.delete {
     height: 100vh;
     justify-content: center;
     display: flex;
     align-items: center;
-    background: url("../../vendor/img/libraryCRUD.jpg") repeat scroll center center/cover;
+    background: url("../../vendor/img/libraryCRUD.jpg");
+}
+
+.delete input {
+    background-color: #ffffff;
+}
+.delete input::placeholder {
+    color: #000000;
+    font-weight: bold;
+}
+
+.delete label {
+    color: #ffffff;
+}
+
+.delete-cover {
+    background: #00000088;
+    height: 100vh;
 }

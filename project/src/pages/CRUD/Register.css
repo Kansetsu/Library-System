@@ -3,6 +3,22 @@
     justify-content: center;
     display: flex;
     align-items: center;
-    background: url("../../vendor/img/libraryCRUD.jpg") repeat scroll center center/cover;
+    background: url("../../vendor/img/libraryCRUD.jpg");
+}
 
+.register input {
+    background-color: #ffffff;
+}
+.register input::placeholder {
+    color: #000000;
+    font-weight: bold;
+}
+
+.register label {
+    color: #ffffff;
+}
+
+.register-cover {
+    background: #00000088;
+    height: 100vh;
 }

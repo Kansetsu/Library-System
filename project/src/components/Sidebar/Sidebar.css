@@ -8,6 +8,8 @@ Sidebar Component
     justify-content: center;
     position: relative;
     left: 90rem;
+    overflow: hidden;
+
 }
 
 #header .logo-text {
@@ -38,12 +40,15 @@ Sidebar Component
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 #header .menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
+    z-index: 1;
+
 }
 
 #header .nav-menu {
@@ -56,6 +61,8 @@ Sidebar Component
     top: 0;
     left: -100%;
     transition: 850ms;
+    z-index: 1;
+
 }
 
 #header .nav-menu.active {

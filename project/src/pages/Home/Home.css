@@ -6,7 +6,18 @@
     flex-direction: column;
     justify-content: center;
     color: var(--color-text);
+    
 }
+
+
+.l-section {
+    transform: skewY(-3deg);
+}
+
+.l-section__content {
+    transform: skewY(3deg);
+}
+
 
 #hero .introduction {
     background: url("../../vendor/img/books-1281581.jpg") repeat scroll center center/cover;
@@ -15,3 +26,8 @@
     width: 100%;
 }
 
+#hero .cover {
+    height: 100vh;
+    width: 100%;
+    background: #00000066;
+}
