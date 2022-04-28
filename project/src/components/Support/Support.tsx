@@ -1,3 +1,4 @@
+import FAQ from "../FAQ/FAQ";
 import "./Support.css";
 
 function Support() {
@@ -12,6 +13,7 @@ function Support() {
                             Yeah, that's the true. <br />I know, it's sad, but it's still true, so go away!
                         </p>
                     </div>
+                    <FAQ />
                 </div>
             </div>
         </section>

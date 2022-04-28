@@ -66,8 +66,10 @@
     transform: skewY(3deg);
 }
 
-#team .about {
+#team .team-about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-#team .about-img {
-}
+

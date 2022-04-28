@@ -1,9 +1,13 @@
 import img from "../../vendor/img/card-book.png";
 import Card from "../../components/Cards/Card";
+import "./Categories.css";
 
 function CollegeCategory() {
     return (
         <section id="category">
+            <div>
+                <h1 className="category-title">College Section</h1>
+            </div>
             <div className="wrapper">
                 <Card
                     img={img}

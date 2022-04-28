@@ -32,10 +32,18 @@ Sidebar Component
     margin: 7px;
     font-family: 'Monoton', cursive;
     color: red;
+    transition: 1s ease-in-out;
+
+}
+
+#header .title:hover {
+    color: white;
+    transition: 1s ease-in-out;
+
 }
 
 #header .logo-text:hover {
-    color: var(--hover);
+    color: red;
     transition: 1s ease-in-out;
 }
 

@@ -21,13 +21,12 @@ export const TypedText = () => {
     useEffect(() => {
         const options = {
             strings: [
-                "Here you can safe your books",
-                "Here you can see all the books you like",
-                "Here you can see Renato torture me",
-                "Serious, help me, please",
-                `It's not a subliminar message`,
-                "Can you, please, call the police ?",
-                `I love Enconra Brasil`,
+                "Here you can safe your books.",
+                "Here you can see all the books you like.",
+                "Register your books for free.",
+                "Register your memories.",
+                "The best library store of the world!!",
+                `We love Enconra Brasil!!`,
             ],
             typeSpeed: 80,
             backSpeed: 40,
