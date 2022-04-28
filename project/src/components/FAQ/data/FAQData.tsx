@@ -16,7 +16,7 @@ export const Data = [
     },
 
     {
-        question: "Some question is about this website ?",
+        question: "Any question will be about this site ?",
         answer: "No. Obviously.",
         open: false,
     },
