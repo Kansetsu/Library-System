@@ -11,8 +11,14 @@ function Card(props: any) {
         <div className="card">
             <div className="card-body">
                 <img src={props.img} alt="book" className="card-img" />
-                <h2 className="card-title">{props.title}</h2>
-                <p className="card-description">{props.description}</p>
+                <h2 className="card-title">{props.name}</h2>
+                <p className="card-description">Publishing Company: {props.publishingCompany}</p>
+                <p className="card-description">Price: R$ {props.price}</p>
+                <p className="card-description">Description: {props.description}</p>
+                <p className="card-description">Category: {props.category}</p>
+                <p className="card-description">Publication Date: {props.publicationDate.replaceAll('-', '/')}</p>
+                <p className="card-description">Language: {props.language}</p>
+                <p className="card-description">Pages: {props.pages}</p>
             </div>
             <div className="opinion-btn">
                 <button onClick={like} className="card-btn-like">

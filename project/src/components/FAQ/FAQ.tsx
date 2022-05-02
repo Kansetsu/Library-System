@@ -4,11 +4,11 @@ import { IconContext } from "react-icons";
 import { FiPlus, FiMinus } from "react-icons/fi";
 import { useState } from "react";
 
-function FAQ(props: any) {
+function FAQ(_props: any) {
     const [clicked, setClicked] = useState(null);
 
     const toggle = (index: any) => {
-        if (clicked == index) {
+        if (clicked === index) {
             return setClicked(null);
         }
 

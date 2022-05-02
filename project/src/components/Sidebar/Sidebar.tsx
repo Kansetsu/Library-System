@@ -58,7 +58,7 @@ export function Sidebar() {
                                         item.subNav?.map((item, index) => {
                                             return (
                                                 <li className={item.cName}>
-                                                    <Link to={item.path} key={index}>
+                                                    <Link to={`/categories${item.path}`} key={index}>
                                                         {item.icon}
                                                         <span>{item.title}</span>
                                                     </Link>

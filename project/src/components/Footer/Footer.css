@@ -18,7 +18,7 @@
 
 #footer .contact {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
@@ -30,7 +30,7 @@
 
 #footer .address {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     flex-direction: column;
     align-items: flex-end;
     position: relative;

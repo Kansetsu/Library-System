@@ -1,19 +1,15 @@
 import "./Form.css";
 import { useForm } from "react-hook-form";
 import api from "../../services/Api";
-// import { useState } from "react";
 
 function FormDelete() {
-    // const [book, setBook] = useState();
     const { handleSubmit, register } = useForm();
     function FormData(data: any) {
         api.delete("http://localhost:8080/library/delete", {
             ...data,
-        })
-            // .then((response: any) => setBook(response.data))
-            .catch((err: any) => {
-                console.log("Erro: " + err);
-            });
+        }).catch((err: any) => {
+            alert("Invalid data! \n" + err);
+        });
     }
 
     return (
