@@ -8,8 +8,10 @@ function FormDelete() {
         api.delete("http://localhost:8080/library/delete", {
             ...data,
         }).catch((err: any) => {
-            alert("Invalid data! \n" + err);
+            alert("Ops! Something Wrong! \n" + err);
         });
+
+        alert("Deleted!");
     }
 
     return (

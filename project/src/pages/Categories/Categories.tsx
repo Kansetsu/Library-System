@@ -20,11 +20,14 @@ function Categories() {
         if (category === "All") {
             api.get(`http://localhost:8080/library/paginate?page=${paginate}&books=12`)
                 .then(({ data }) => {
+                    console.log(data);
+                    
                     setBooks(data);
                 })
                 .catch((err: any) => {
                     alert("Something wrong! \n" + err);
                 });
+                
         } else {
             api.get(`http://localhost:8080/library/category/${category}?page=${paginate}&books=12`)
                 .then(({ data }) => {
@@ -45,6 +48,8 @@ function Categories() {
 
                 <div className="wrapper">
                     {books?.map((book: any) => {
+                        console.log(books.length);
+                        
                         return (
                             <Card
                                 key={book._id}

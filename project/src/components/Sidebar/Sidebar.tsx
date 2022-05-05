@@ -37,16 +37,16 @@ export function Sidebar() {
 
                         {SidebarData.map((item, index) => {
                             return (
-                                <li key={index}>
-                                    <li className={item.cName} >
+                                <li key={index.toString()}>
+                                    <li className={item.cName}>
                                         {["team", "support"].includes(item.path) ? (
-                                            <ScrollTo key={index} smooth={true} offset={-77} activeClass="active" to={item.path}>
+                                            <ScrollTo smooth={true} offset={-77} activeClass="active" to={item.path}>
                                                 {item.icon}
                                                 <span>{item.title}</span>
                                                 {item.subNav && subnav ? item.iconOpened : item.subNav ? item.iconClosed : null}
                                             </ScrollTo>
                                         ) : (
-                                            <Link key={index} to={item.path} onClick={item.subNav && showSubnav}>
+                                            <Link to={item.path} onClick={item.subNav && showSubnav}>
                                                 {item.icon}
                                                 <span>{item.title}</span>
                                                 {item.subNav && subnav ? item.iconOpened : item.subNav ? item.iconClosed : null}
@@ -58,7 +58,7 @@ export function Sidebar() {
                                         item.subNav?.map((item, index) => {
                                             return (
                                                 <li className={item.cName}>
-                                                    <Link to={`/categories${item.path}`} key={index}>
+                                                    <Link to={`/categories${item.path}`} key={index + 1}>
                                                         {item.icon}
                                                         <span>{item.title}</span>
                                                     </Link>

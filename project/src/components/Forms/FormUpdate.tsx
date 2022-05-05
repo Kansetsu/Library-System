@@ -1,6 +1,7 @@
 import "./Form.css";
 import { useForm } from "react-hook-form";
 import api from "../../services/Api";
+import { dropBoxLanguage, dropBoxCategory } from "./data/FormData";
 
 function FormRegister() {
     const { handleSubmit, register } = useForm();
@@ -9,8 +10,10 @@ function FormRegister() {
             api.put(`http://localhost:8080/library/update/${data.name}`, {
                 ...data,
             }).catch((err: any) => {
-                alert("Invalid data! \n" + err);
+                alert("Ops! Something Wrong! \n" + err);
             });
+
+            alert("Updated!");
         }
     }
 
@@ -25,6 +28,7 @@ function FormRegister() {
                     </label>
                     <input id="name" type="text" className="form-input" placeholder="Enter book's name" {...register("name")} />
                 </div>
+
                 <div className="form-inputs">
                     <label htmlFor="authorID" className="form-label">
                         Author:
@@ -56,14 +60,28 @@ function FormRegister() {
                     <label htmlFor="description" className="form-label">
                         Description:
                     </label>
-                    <input id="description" type="text" className="form-input" placeholder="Enter description" {...register("description")} />
+                    <input
+                        id="description"
+                        type="text"
+                        className="form-input"
+                        placeholder="Enter description"
+                        maxLength={126}
+                        {...register("description")}
+                    />
                 </div>
 
                 <div className="form-inputs">
                     <label htmlFor="category" className="form-label">
                         Category:
                     </label>
-                    <input id="category" type="text" className="form-input" placeholder="Enter category" {...register("category")} />
+                    <select id="category" className="form-input" placeholder="Enter category" {...register("category")}>
+                        <option disabled selected>
+                            --- select category ---
+                        </option>
+                        {dropBoxCategory?.map((categories) => {
+                            return <option value={categories.category}>{categories.category}</option>;
+                        })}
+                    </select>{" "}
                 </div>
 
                 <div className="form-inputs">
@@ -83,7 +101,19 @@ function FormRegister() {
                     <label htmlFor="language" className="form-label">
                         Language:
                     </label>
-                    <input id="language" type="text" className="form-input" placeholder="Enter language" {...register("language")} />
+                    <select id="language" className="form-input" placeholder="Enter language" {...register("language")}>
+                        <option disabled selected>
+                            --- select language ---
+                        </option>
+
+                        {dropBoxLanguage?.map((language) => {
+                            return (
+                                <option value={language.country + " - " + language.code}>
+                                    {language.country} - {language.code}
+                                </option>
+                            );
+                        })}
+                    </select>
                 </div>
 
                 <div className="form-inputs">

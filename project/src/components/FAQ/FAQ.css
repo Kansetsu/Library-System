@@ -26,10 +26,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100rem;
+    width: 70rem;
     text-align: center;
     cursor: pointer;
-
 }
 
 .question-icon {
@@ -40,7 +39,7 @@
     position: relative;
     bottom: 30px;
     left: 30px;
-    font-size: 30px !important;
+    font-size: 19px !important;
 }
 
 .dropdown-faq{

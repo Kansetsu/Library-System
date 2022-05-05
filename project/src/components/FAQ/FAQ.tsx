@@ -23,7 +23,7 @@ function FAQ(_props: any) {
                     {Data.map((item, index) => {
                         return (
                             <>
-                                <div className="wrap" onClick={() => toggle(index)} key={index}>
+                                <div className="wrap" onClick={() => toggle(index)} key={index.toString()}>
                                     <h1 className="question">{item.question}</h1>
                                     <span className="question-icon">{clicked === index ? <FiMinus /> : <FiPlus />}</span>
                                 </div>
