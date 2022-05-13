@@ -14,8 +14,7 @@ function Categories() {
     function changePage() {
         return setPaginate(paginate + 1);
     }
-    console.log(paginate);
-    
+
     useEffect(() => {
         if (category === "All") {
             api.get(`http://localhost:8080/library/paginate?page=${paginate}&books=12`)
@@ -43,13 +42,11 @@ function Categories() {
         <>
             <section id="categories">
                 <div>
-                    <h1 className="category-title">{category} Books</h1>
+                    <h1 className="category-title" data-testid="custom-element">{category} Books</h1>
                 </div>
 
                 <div className="wrapper">
-                    {books?.map((book: any) => {
-                        console.log(books.length);
-                        
+                    {books?.map((book: any) => {                        
                         return (
                             <Card
                                 key={book._id}
